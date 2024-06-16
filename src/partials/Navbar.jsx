@@ -5,6 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
+        <>
         <div id="Navbar" className="flex justify-between items-center px-4">
             <div className="Navbar_logo">
                 <span style={{ color: '#FFF' }}>DEVXJMI</span>
@@ -18,6 +19,9 @@ const Navbar = () => {
                 <Link to='#' className="text-white mx-2">Login</Link>
             </div>
         </div>
+        <hr className='h-1.5 bg-[#a50045] xl:w-[90rem] mx-auto border-none rounded-md' />
+        </>
+        
     );
 }
 
