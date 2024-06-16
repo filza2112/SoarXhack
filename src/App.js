@@ -12,7 +12,7 @@ function App() {
         <Hero />
       </div>
 
-      <div className="bg-[url('./images/Devjmi2.png')]">
+      <div className="bg-[url('./images/Devjmi2.png')] bg-repeat-y">
         <hr className='h-1.5 bg-[#a50045] xl:w-[90rem] mx-auto border-none rounded-md' />
         <Tracks />
       </div>
