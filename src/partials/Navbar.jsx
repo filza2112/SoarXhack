@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link to='#' className="text-white mx-2">Login</Link>
             </div>
         </div>
-        <hr className='h-1.5 bg-[#a50045] xl:w-[90rem] mx-auto border-none rounded-md' />
+        <hr className='h-1.5 bg-[#a50045] xl:w-[95%] mx-auto border-none rounded-md' />
         </>
         
     );
